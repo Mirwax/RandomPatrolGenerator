@@ -138,7 +138,14 @@ bluforArmoredVehicle_WWII_USA = [
 	"LIB_M8_Greyhound", 
 	"LIB_M3A3_Stuart", 
 	"LIB_M4A3_76", 
-	"LIB_M4A3_75"
+	"LIB_M4A3_75",
+// Tanks
+	"LIB_Churchill_Mk7",
+//	"LIB_Churchill_Mk7_AVRE",
+//	"LIB_Churchill_Mk7_Howitzer",
+//	"LIB_Churchill_Mk7_Crocodile",
+	"LIB_Cromwell_Mk4",
+	"LIB_M4A4_FIREFLY"
 ];
 
 bluforDrone_WWII_USA = [
@@ -182,7 +189,10 @@ rifleList_WWII_USA = [
 	"LIB_M1_Carbine",
 	"LIB_M1_Garand_M7",
 	"LIB_M1903A3_Springfield",
-	"LIB_M1903A4_Springfield"
+	"LIB_M1903A4_Springfield",
+// Secondary Weapons
+	"LIB_Colt_M1911",
+	"LIB_FLARE_PISTOL"
 ];	
 
 launcherList_WWII_USA = [		
@@ -275,18 +285,18 @@ uniformList_WWII_USA = [
 	"U_LIB_US_Sergeant",
 	"U_LIB_US_Eng",
 	"U_LIB_US_Med",
-// Rangers
+		// Rangers
 	"U_LIB_US_Rangers_Uniform",
 	"U_LIB_US_Rangers_Corp",
 	"U_LIB_US_Rangers_Private_1st",
 	"U_LIB_US_Rangers_Sergeant",
 	"U_LIB_US_Rangers_Eng",
 	"U_LIB_US_Rangers_Med",
-// North Arfican Corps
+		// North Arfican Corps
 	"U_LIB_US_NAC_Uniform",
 	"U_LIB_US_NAC_Uniform_2",
 	"U_LIB_US_NAC_Med",
-// Airborne
+		// Airborne
 	"U_LIB_US_AB_Uniform_M42",
 	"U_LIB_US_AB_Uniform_M42_506",
 	"U_LIB_US_AB_Uniform_M42_corporal",
@@ -300,18 +310,128 @@ uniformList_WWII_USA = [
 	"U_LIB_US_AB_Uniform_M43_Flag",
 	"U_LIB_US_AB_Uniform_M43_Medic",
 	"U_LIB_US_AB_Uniform_M43_NCO",
-// Pilots
+		// Pilots
 	"U_LIB_US_Bomber_Crew",
 	"U_LIB_US_Bomber_Pilot",
 	"U_LIB_US_Pilot",
 	"U_LIB_US_Pilot_2",
-// Tank crews
+		// Tank crews
 	"U_LIB_US_Tank_Crew",
 	"U_LIB_US_Tank_Crew2",
+	// Helmets
+	"H_LIB_US_Helmet",
+	"H_LIB_US_Helmet_First_lieutenant",
+	"H_LIB_US_Helmet_Second_lieutenant",
+	"H_LIB_US_Helmet_Net",
+	"H_LIB_US_Helmet_Net_ns",
+	"H_LIB_US_Helmet_Net_os",
+	"H_LIB_US_Helmet_Cap",
+	"H_LIB_US_Helmet_CO",
+	"H_LIB_US_Helmet_NCO",
+	"H_LIB_US_Helmet_ns",
+	"H_LIB_US_Helmet_os",
+	"H_LIB_US_Helmet_Med",
+	"H_LIB_US_Helmet_Med_ns",
+	"H_LIB_US_Helmet_Med_os",
+		// Airborne
+	"H_LIB_US_AB_Helmet",
+	"H_LIB_US_AB_Helmet_2",
+	"H_LIB_US_AB_Helmet_3",
+	"H_LIB_US_AB_Helmet_4",
+	"H_LIB_US_AB_Helmet_5",
+	"H_LIB_US_AB_Helmet_Clear_1",
+	"H_LIB_US_AB_Helmet_Clear_2",
+	"H_LIB_US_AB_Helmet_Clear_3",
+	"H_LIB_US_AB_Helmet_CO_1",
+	"H_LIB_US_AB_Helmet_CO_2",
+	"H_LIB_US_AB_Helmet_Jump_1",
+	"H_LIB_US_AB_Helmet_Jump_2",
+	"H_LIB_US_AB_Helmet_Medic_1",
+	"H_LIB_US_AB_Helmet_NCO_1",
+	"H_LIB_US_AB_Helmet_NCO_2",
+	"H_LIB_US_AB_Helmet_Plain_1",
+	"H_LIB_US_AB_Helmet_Plain_2",
+	"H_LIB_US_AB_Helmet_Plain_3",
+		// Rangers
+	"H_LIB_US_Rangers_Helmet",
+	"H_LIB_US_Rangers_Helmet_First_lieutenant",
+	"H_LIB_US_Rangers_Helmet_Second_lieutenant",
+	"H_LIB_US_Rangers_Helmet_Cap",
+	"H_LIB_US_Rangers_Helmet_NCO",
+	"H_LIB_US_Rangers_Helmet_ns",
+	"H_LIB_US_Rangers_Helmet_os",
+		// USAF
+	"H_LIB_US_Pilot_Cap",
+	"H_LIB_US_Pilot_Cap_Khaki",
+	"H_LIB_US_Helmet_Pilot",
+	"H_LIB_US_Helmet_Pilot_Glasses_Down",
+	"H_LIB_US_Helmet_Pilot_Glasses_Up",
+	"H_LIB_US_Helmet_Pilot_Respirator_Glasses_Down",
+	"H_LIB_US_Helmet_Pilot_Respirator_Glasses_Up",
+	"H_LIB_US_Helmet_Pilot_Respirator",
+		// Other
+	"H_LIB_US_Helmet_Tank",
+	// Vests
+	"V_LIB_US_Vest_Asst_MG",
+	"V_LIB_US_Vest_Carbine",
+	"V_LIB_US_Vest_Carbine_eng",
+	"V_LIB_US_Vest_Carbine_nco",
+	"V_LIB_US_Vest_Carbine_nco_Radio",
+	"V_LIB_US_Vest_Garand",
+	"V_LIB_US_Vest_Grenadier",
+	"V_LIB_US_Vest_45",
+	"V_LIB_US_Vest_Bar",
+	"V_LIB_US_Vest_M1919",
+	"V_LIB_US_Vest_Thompson",
+	"V_LIB_US_Vest_Thompson_nco",
+	"V_LIB_US_Vest_Thompson_nco_Radio",
+	"V_LIB_US_Vest_Medic",
+	"V_LIB_US_Vest_Medic2",
+	"V_LIB_US_Vest_LifeVest",
+		// Assault / DDay
+	"V_LIB_US_Assault_Vest",
+	"V_LIB_US_Assault_Vest_dday",
+	"V_LIB_US_Assault_Vest_Light",
+	"V_LIB_US_Assault_Vest_Thompson",
+		// Airborne
+	"V_LIB_US_AB_Vest_Asst_MG",
+	"V_LIB_US_AB_Vest_Bar",
+	"V_LIB_US_AB_Vest_Carbine",
+	"V_LIB_US_AB_Vest_Carbine_eng",
+	"V_LIB_US_AB_Vest_Carbine_nco",
+	"V_LIB_US_AB_Vest_Carbine_nco_Radio",
+	"V_LIB_US_AB_Vest_Garand",
+	"V_LIB_US_AB_Vest_Grenadier",
+	"V_LIB_US_AB_Vest_45",
+	"V_LIB_US_AB_Vest_M1919",
+	"V_LIB_US_AB_Vest_Padded_Asst_MG",
+	"V_LIB_US_AB_Vest_Padded_Bar",
+	"V_LIB_US_AB_Vest_Padded_Carbine",
+	"V_LIB_US_AB_Vest_Padded_Carbine_eng",
+	"V_LIB_US_AB_Vest_Padded_Carbine_nco",
+	"V_LIB_US_AB_Vest_Padded_Carbine_nco_Radio",
+	"V_LIB_US_AB_Vest_Padded_Garand",
+	"V_LIB_US_AB_Vest_Padded_Grenadier",
+	"V_LIB_US_AB_Vest_Padded_45",
+	"V_LIB_US_AB_Vest_Padded_M1919",
+	"V_LIB_US_AB_Vest_Padded_Thompson",
+	"V_LIB_US_AB_Vest_Padded_Thompson_nco",
+	"V_LIB_US_AB_Vest_Padded_Thompson_nco_Radio",
+	"V_LIB_US_AB_Vest_Thompson",
+	"V_LIB_US_AB_Vest_Thompson_nco",
+	"V_LIB_US_AB_Vest_Thompson_nco_Radio",
 // Winter uniforms
 	"U_LIB_US_Private_w",
 	"U_LIB_US_AB_Uniform_M42_w",
-	"U_LIB_US_AB_Uniform_M43_w"
+	"U_LIB_US_AB_Uniform_M43_w",
+	// Winter Helmets
+	"H_LIB_US_Helmet_w",
+	"H_LIB_US_Helmet_Cover_w",
+	"H_LIB_US_Helmet_First_lieutenant_w",
+	"H_LIB_US_Helmet_Second_lieutenant_w",
+	"H_LIB_US_Helmet_Camo_Net_w",
+	"H_LIB_US_Helmet_Cap_w",
+	"H_LIB_US_Helmet_Med_w"
 ];
 
 magazineList_WWII_USA = [
@@ -332,5 +452,9 @@ magazineList_WWII_USA = [
 	"LIB_50Rnd_762x63_M1",
 	"LIB_5Rnd_762x63",
 	"LIB_5Rnd_762x63_M1",
-	"LIB_5Rnd_762x63_t"
+	"LIB_5Rnd_762x63_t",
+	"LIB_1Rnd_flare_green",
+	"LIB_1Rnd_flare_red",
+	"LIB_1Rnd_flare_white",
+	"LIB_1Rnd_flare_yellow"
 ];
