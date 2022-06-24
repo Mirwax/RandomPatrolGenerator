@@ -151,7 +151,13 @@ bluforArmoredVehicle_WWII_Wehrmacht = [
 	"LIB_SdKfz251_FFV",
 	"LIB_SdKfz_7",
 	"LIB_SdKfz_7_Ammo",
-	"LIB_SdKfz_7_AA"
+	"LIB_SdKfz_7_AA",
+// Tanks
+	"LIB_PzKpfwIV_H",
+	"LIB_PzKpfwV",
+	"LIB_PzKpfwVI",
+	"LIB_SdKfz124",
+	"LIB_StuG_III_G"
 ];
 
 bluforDrone_WWII_Wehrmacht = [
@@ -195,7 +201,13 @@ rifleList_WWII_Wehrmacht = [
 	"LIB_K98_Late",
 	"LIB_G3340",
 	"LIB_G41",
-	"LIB_G43"
+	"LIB_G43",
+// Secondary Weapons
+	"LIB_P08",
+	"LIB_P38",
+	"LIB_WaltherPPK",
+	"LIB_M1896",
+	"LIB_FLARE_PISTOL"
 ];	
 
 launcherList_WWII_Wehrmacht = [		
@@ -298,31 +310,12 @@ backPackList_WWII_Wehrmacht = [
 
 uniformList_WWII_Wehrmacht = [
 	"U_LIB_GER_Funker",
-	"U_LIB_GER_DAK_Spg_crew_leutnant",
-	"U_LIB_GER_DAK_Spg_crew_private",
-	"U_LIB_GER_DAK_Spg_crew_unterofficer",
-	"U_LIB_FSJ_Soldier_dak",
-	"U_LIB_FSJ_Soldier",
-	"U_LIB_FSJ_Soldier_dak_camo",
-	"U_LIB_FSJ_Soldier_camo",
 	"U_LIB_GER_LW_pilot",
-	"U_LIB_DAK_Lieutenant",
-	"U_LIB_DAK_Shorts",
-	"U_LIB_DAK_Shorts_2",
-	"U_LIB_DAK_Shorts_3",
 	"U_LIB_GER_Hauptmann",
 	"U_LIB_GER_Leutnant",
 	"U_LIB_GER_Oberleutnant",
 	"U_LIB_GER_Oberst",
 	"U_LIB_GER_Art_leutnant",
-	"U_LIB_DAK_Sentry",
-	"U_LIB_DAK_Sentry_2",
-	"U_LIB_DAK_NCO",
-	"U_LIB_DAK_NCO_2",
-	"U_LIB_DAK_Soldier",
-	"U_LIB_DAK_Soldier_2",
-	"U_LIB_DAK_Soldier_3",
-	"U_LIB_DAK_Medic",
 	"U_LIB_GER_Pionier",
 	"U_LIB_GER_Oberschutze",
 	"U_LIB_GER_Recruit",
@@ -350,6 +343,27 @@ uniformList_WWII_Wehrmacht = [
 	"U_LIB_GER_Spg_crew_leutnant",
 	"U_LIB_GER_Spg_crew_private",
 	"U_LIB_GER_Spg_crew_unterofficer",
+		// FallSchirmJäger (a.k.a. German Paratroopers)
+	"U_LIB_FSJ_Soldier_dak",
+	"U_LIB_FSJ_Soldier",
+	"U_LIB_FSJ_Soldier_dak_camo",
+	"U_LIB_FSJ_Soldier_camo",
+		// Deutches Afrika Korps
+	"U_LIB_DAK_Lieutenant",
+	"U_LIB_DAK_Shorts",
+	"U_LIB_DAK_Shorts_2",
+	"U_LIB_DAK_Shorts_3",
+	"U_LIB_DAK_Sentry",
+	"U_LIB_DAK_Sentry_2",
+	"U_LIB_DAK_NCO",
+	"U_LIB_DAK_NCO_2",
+	"U_LIB_DAK_Soldier",
+	"U_LIB_DAK_Soldier_2",
+	"U_LIB_DAK_Soldier_3",
+	"U_LIB_DAK_Medic",
+	"U_LIB_GER_DAK_Spg_crew_leutnant",
+	"U_LIB_GER_DAK_Spg_crew_private",
+	"U_LIB_GER_DAK_Spg_crew_unterofficer",
 // Winter uniforms
 	"U_LIB_GER_Soldier3_w",
 	"U_LIB_GER_Soldier_camo_w",
@@ -378,5 +392,13 @@ magazineList_WWII_Wehrmacht = [
 	"LIB_20Rnd_792x57",
 	"LIB_1Rnd_G_PZGR_30",
 	"LIB_1Rnd_G_PZGR_40",
-	"LIB_1Rnd_G_SPZGR_30"
+	"LIB_1Rnd_G_SPZGR_30",
+	"LIB_10Rnd_9x19_M1896",
+	"LIB_8Rnd_9x19",
+	"LIB_8Rnd_9x19_P08",
+	"LIB_7Rnd_765x17_PPK",
+	"LIB_1Rnd_flare_green",
+	"LIB_1Rnd_flare_red",
+	"LIB_1Rnd_flare_white",
+	"LIB_1Rnd_flare_yellow"
 ];
