@@ -180,7 +180,11 @@ loadout_WWII_UK = [
 rifleList_WWII_UK = [		
 	"LIB_DELISLE",
 	"LIB_LeeEnfield_No1",
-	"LIB_LeeEnfield_No4"
+	"LIB_LeeEnfield_No4",
+// Secondary Weapons
+	"LIB_Webley_mk6",
+	"LIB_Webley_Flare",
+	"LIB_Welrod_mk1"
 ];	
 
 launcherList_WWII_UK = [		
@@ -277,10 +281,56 @@ uniformList_WWII_UK = [
 	"U_LIB_UK_P37_Corporal",
 	"U_LIB_UK_P37_LanceCorporal",
 	"U_LIB_UK_P37_Sergeant",
+	// Helmets
+	"H_LIB_UK_Balmoral",
+	"H_LIB_UK_Beret",
+	"H_LIB_UK_Beret_Commando",
+	"H_LIB_UK_Beret_Commando_Kieffer",
+	"H_LIB_UK_Para_Beret",
+	"H_LIB_UK_Beret_Headset",
+	"H_LIB_UK_Beret_Tankist",
+	"H_LIB_UK_Helmet_Mk2",
+	"H_LIB_UK_Helmet_Mk2_Beachgroup",
+	"H_LIB_UK_Helmet_Mk2_Bowed",
+	"H_LIB_UK_Helmet_Mk2_Cover",
+	"H_LIB_UK_Helmet_Mk2_Camo",
+	"H_LIB_UK_Helmet_Mk2_Desert",
+	"H_LIB_UK_Helmet_Mk2_Desert_Bowed",
+	"H_LIB_UK_Helmet_Mk2_FAK",
+	"H_LIB_UK_Helmet_Mk2_FAK_Camo",
+	"H_LIB_UK_Helmet_Mk2_Net",
+	"H_LIB_UK_Para_Helmet_Mk2",
+	"H_LIB_UK_Para_Helmet_Mk2_Camo",
+	"H_LIB_UK_Para_Helmet_Mk2_Net",
+	"H_LIB_UK_Helmet_Mk3",
+	"H_LIB_UK_Helmet_Mk3_Camo",
+	"H_LIB_UK_Helmet_Mk3_Net",
+	"H_LIB_UK_Pilot_Cap",
+	// Vests
+	"V_LIB_UK_P37_Rifleman",
+	"V_LIB_UK_P37_Rifleman_Blanco",
+	"V_LIB_UK_P37_Gasmask",
+	"V_LIB_UK_P37_Gasmask_Blanco",
+	"V_LIB_UK_P37_Heavy",
+	"V_LIB_UK_P37_Heavy_Blanco",
+	"V_LIB_UK_P37_Holster",
+	"V_LIB_UK_P37_Holster_Blanco",
+	"V_LIB_UK_P37_Officer",
+	"V_LIB_UK_P37_Officer_Blanco",
+	"V_LIB_UK_P37_Sten",
+	"V_LIB_UK_P37_Sten_Blanco",
+	"V_LIB_UK_P37_Crew",
 // Winter uniforms
 	"U_LIB_UK_DenisonSmock_w",
 	"U_LIB_UK_P37Jerkins_w",
-	"U_LIB_UK_P37_w"
+	"U_LIB_UK_P37_w",
+	// Winter Helmets
+	"H_LIB_UK_Helmet_Mk2_w",
+	"H_LIB_UK_Helmet_Mk2_Cover_w",
+	"H_LIB_UK_Helmet_Mk2_Net_w",
+	"H_LIB_UK_Para_Helmet_Mk2_w",
+	"H_LIB_UK_Para_Helmet_Mk2_Net_w",
+	"H_LIB_UK_Helmet_Mk3_w"
 ];
 
 magazineList_WWII_UK = [
@@ -296,5 +346,11 @@ magazineList_WWII_UK = [
 	"LIB_1Rnd_89m_PIAT",
 	"LIB_1Rnd_89m_G_PIAT",
 	"LIB_32Rnd_9x19_Sten",
-	"LIB_1Rnd_G_MillsBomb"
+	"LIB_1Rnd_G_MillsBomb",
+	"LIB_6Rnd_455",
+	"LIB_1Rnd_flare_green",
+	"LIB_1Rnd_flare_red",
+	"LIB_1Rnd_flare_white",
+	"LIB_1Rnd_flare_yellow",
+	"LIB_6Rnd_9x19_Welrod"
 ];
