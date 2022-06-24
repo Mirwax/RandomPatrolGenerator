@@ -164,7 +164,13 @@ bluforArmoredVehicle_WWII_URSS = [
 	"LIB_SdKfz251_captured",
 	"LIB_SdKfz251_captured_FFV",
 	"LIB_SdKfz251_captured_w",
-	"LIB_SdKfz251_captured_FFV_w"
+	"LIB_SdKfz251_captured_FFV_w",
+	// Tanks
+	"LIB_T34_76",
+	"LIB_T34_85",
+	"LIB_JS2_43",
+	"LIB_M4A2_SOV",
+	"LIB_SU85"
 ];
 
 bluforDrone_WWII_URSS = [
@@ -210,7 +216,12 @@ rifleList_WWII_URSS = [
 	"LIB_M38",
 	"LIB_M44",
 	"LIB_M9130",
-	"LIB_PTRD" // anti-material rifle, should maybe be in another list ?
+	"LIB_PTRD", // anti-material rifle, should maybe be in another list ?
+// Secondary Weapons
+	"LIB_M1895", // Nagant revolver
+	"LIB_M1896", // Mauser C96
+	"LIB_TT33", // Tokarev pistol
+	"LIB_FLARE_PISTOL"
 ];	
 
 launcherList_WWII_URSS = [		
@@ -286,7 +297,6 @@ itemMedicList_WWII_URSS = [
 	"ACE_surgicalKit"
 ];
 
-// Those lists might not be correct...
 backPackList_WWII_URSS = [
 	"B_LIB_SOV_RA_Rucksack",
 	"B_LIB_SOV_RA_Rucksack_Green",
@@ -338,10 +348,40 @@ uniformList_WWII_URSS = [
 	"U_LIB_SOV_Tank_private_field",
 	"U_LIB_SOV_Stleutenant",
 	"U_LIB_SOV_Pilot",
+	// Helmets
+	"H_LIB_SOV_",
+	"H_LIB_SOV_RA_Helmet",
+	"H_LIB_SOV_RA_PrivateCap",
+	"H_LIB_SOV_TankHelmet",
+	"H_LIB_SOV_RA_OfficerCap",
+	"H_LIB_SOV_Ushanka",
+	"H_LIB_SOV_Ushanka2",
+	"H_LIB_SOV_PilotHelmet",
+	// Vests
+	"V_LIB_SOV_IShBrVestPPShDisc",
+	"V_LIB_SOV_IShBrVestPPShMag",
+	"V_LIB_SOV_IShBrVestMG",
+	"V_LIB_SOV_RA_MGBelt",
+	"V_LIB_SOV_RA_MGBelt_Kit",
+	"V_LIB_SOV_RA_MosinBelt",
+	"V_LIB_SOV_RA_OfficerVest",
+	"V_LIB_SOV_RA_TankOfficerSet",
+	"V_LIB_SOV_RA_PPShBelt",
+	"V_LIB_SOV_RA_PPShBelt_Mag",
+	"V_LIB_SOV_RA_SniperVest",
+	"V_LIB_SOV_RA_SVTBelt",
+	"V_LIB_SOV_RAZV_OfficerVest",
+	"V_LIB_SOV_RAZV_MGBelt",
+	"V_LIB_SOV_RAZV_MGBelt_Kit",
+	"V_LIB_SOV_RAZV_PPShBelt",
+	"V_LIB_SOV_RAZV_PPShBelt_Mag",
+	"V_LIB_SOV_RAZV_SVTBelt",
 // Winter uniforms start here
 	"U_LIB_SOV_Strelok_2_w",
 	"U_LIB_SOV_Strelok_w",
 	"U_LIB_SOV_Sniper_w"
+	// Winter Helmet
+	"H_LIB_SOV_RA_Helmet_w"
 ];
 
 magazineList_WWII_URSS = [
@@ -370,5 +410,11 @@ magazineList_WWII_URSS = [
 	"LIB_8Rnd_762x54",
 	"LIB_7Rnd_762x38",
 	"LIB_1Rnd_G_DYAKONOV",
-	"LIB_1Rnd_145x114" // PTRD ammo
+	"LIB_1Rnd_145x114", // PTRD ammo
+	"LIB_10Rnd_9x19_M1896",
+	"LIB_8Rnd_762x25",
+	"LIB_1Rnd_flare_green",
+	"LIB_1Rnd_flare_red",
+	"LIB_1Rnd_flare_white",
+	"LIB_1Rnd_flare_yellow"
 ];
